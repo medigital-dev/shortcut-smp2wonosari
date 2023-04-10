@@ -1,55 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shortcut - SMP Negeri 2 Wonosari</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-icons.css">
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shortcut - SMP Negeri 2 Wonosari</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap-icons.css">
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+  <style>
+    /* html,
+    body {
+      width: 100%;
+      height: 100vh;
+    } */
+
+    /* BVAmbient Style */
+    .bvambient_particle {
+      position: absolute;
+      pointer-events: none;
+      transition: top linear, left linear;
+    }
+  </style>
 </head>
+
 <body class="">
-    <section class="py-5">
-        <div class="card mx-auto shadow" style="width: 320px;">
-            <img src="images/logo.png" class="mx-auto" alt="Logo" width="160">
-            <div class="card-body">
-                <h5 class="card-header text-center border-0 text-uppercase fw-bold text-primary">SMP Negeri 2 Wonosari</h5>              
-                <div class="container mt-2">
-                    <div class="d-grid gap-2">
-                        <a href="https://www.smp2wonosari.sch.id" class="btn btn-outline-primary text-start">
-                            <i class="bi bi-browser-chrome"></i>
-                            Website</a>
-                            <div class="btn-group" role="group" aria-label="Basic example">
-                        <a href="https://wa.me/62081227774007" class="btn btn-outline-success text-start">
-                            <i class="bi bi-whatsapp"></i>
-                            Whatsapp</a>
-                        <a href="https://t.me/smp2wonosari" class="btn btn-outline-info text-start">
-                            <i class="bi bi-telegram"></i>
-                            Telegram</a>
-                            </div>
-                            <div class="btn-group" role="group" aria-label="Basic example">
-                                <a href="https://facebook.com/smp2wonosari" class="btn btn-outline-primary"><i class="bi bi-facebook"></i></a>
-                                <a href="https://twitter.com/smp2wonosari" class="btn btn-outline-info"><i class="bi bi-twitter"></i></a>
-                                <a href="https://instagram.com/smp2wonosari" class="btn btn-outline-warning"><i class="bi bi-instagram"></i></a>
-                                <a href="https://youtube.com/@smpn2wonosari" class="btn btn-outline-danger"><i class="bi bi-youtube"></i></a>
-                              </div>
-                            <div class="btn-group" role="group" aria-label="Basic example">
-                                <a href="tel:+62274391037" class="btn btn-outline-success"><i class="bi bi-telephone"></i></a>
-                                <a href="mailto:hi@smp2wonosari.sch.id" class="btn btn-outline-success"><i class="bi bi-envelope-at"></i></a>
-                                <a href="https://goo.gl/maps/42wNnsgd44ZtSkRf8" class="btn btn-outline-success"><i class="bi bi-pin-map-fill"></i></a>
-                              </div>
-                      </div>
-                </div>
+  <div id="ambient" style="overflow:hidden; position:absolute; width:100%; height:100vh; top: 0;"></div>
+  <section class="py-5 mt-lg-5 mt-1">
+    <div class="card mx-auto shadow bg-transparent border border-3 border-success" style="width: 320px;">
+      <img src="images/logo.png" class="mx-auto" alt="Logo" width="160">
+      <div class="card-body">
+        <h6 class="card-header text-center border-0 text-uppercase fw-bold text-primary">SMP Negeri 2 Wonosari</h6>
+        <hr class="p-1">
+        <div class="container mt-2">
+          <div class="d-grid gap-2">
+            <a href="https://www.smp2wonosari.sch.id" class="btn btn-outline-primary text-start">
+              <i class="bi bi-browser-chrome"></i>
+              Website</a>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <a href="https://wa.me/62081227774007" class="btn btn-outline-success text-start">
+                <i class="bi bi-whatsapp"></i>
+                Whatsapp</a>
+              <a href="https://t.me/smp2wonosari" class="btn btn-outline-info text-start">
+                <i class="bi bi-telegram"></i>
+                Telegram</a>
             </div>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <a href="https://facebook.com/smp2wonosari" class="btn btn-outline-primary"><i class="bi bi-facebook"></i></a>
+              <a href="https://twitter.com/smp2wonosari" class="btn btn-outline-info"><i class="bi bi-twitter"></i></a>
+              <a href="https://instagram.com/smp2wonosari" class="btn btn-outline-warning"><i class="bi bi-instagram"></i></a>
+              <a href="https://youtube.com/@smpn2wonosari" class="btn btn-outline-danger"><i class="bi bi-youtube"></i></a>
+            </div>
+            <div class="btn-group" role="group" aria-label="Basic example">
+              <a href="tel:+62274391037" class="btn btn-outline-success"><i class="bi bi-telephone"></i></a>
+              <a href="mailto:hi@smp2wonosari.sch.id" class="btn btn-outline-success"><i class="bi bi-envelope-at"></i></a>
+              <a href="https://goo.gl/maps/42wNnsgd44ZtSkRf8" class="btn btn-outline-success"><i class="bi bi-pin-map-fill"></i></a>
+            </div>
+          </div>
         </div>
-    </section>
-    <footer class="container">
-        <div class="d-flex flex-column">
-            <div class="text-center text-muted small">ShortWeb v1.0.4</div>
-            <div class="text-center text-muted small">&copy; 2023 Dibuat dan dikembangkan oleh <a href="https://muhsaidlg.my.id" class="text-decoration-none" target="_blank">Muhammad Said Latif Ghofari</a></div>
-        </div>
-    </footer>
-    <script src="js/bootstrap.bundle.min.js"></script>
+      </div>
+    </div>
+  </section>
+  <footer class="container">
+    <div class="d-flex flex-column">
+      <div class="text-center text-muted small">ShortWeb v1.1</div>
+      <div class="text-center text-muted small">&copy; 2023 Dibuat dan dikembangkan oleh <a href="https://muhsaidlg.my.id" class="text-decoration-none" target="_blank">Muhammad Said Latif Ghofari</a></div>
+    </div>
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bvambient.js"></script>
+  <script>
+    /* Check External Source: bvambient.js */
+    document.addEventListener("DOMContentLoaded", function() {
+      var demo1 = new BVAmbient({
+        selector: "#ambient",
+        fps: 60,
+        max_transition_speed: 12000,
+        min_transition_speed: 8000,
+        particle_number: 30,
+        particle_maxwidth: 60,
+        particle_minwidth: 10,
+        particle_radius: 50,
+        particle_opacity: true,
+        particle_colision_change: true,
+        particle_background: "#58c70c",
+        particle_image: {
+          image: false,
+          src: ""
+        },
+        responsive: [{
+            breakpoint: 768,
+            settings: {
+              particle_number: "15"
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              particle_number: "10"
+            }
+          }
+        ]
+      });
+    });
+  </script>
 </body>
+
 </html>
